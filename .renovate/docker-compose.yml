@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  renovate:
+    image: renovate/renovate:32.117.4
+    volumes:
+      - ./config.js:/config.js
+    environment:
+      RENOVATE_CONFIG_FILE: /config.js
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      LOG_LEVEL: debug
