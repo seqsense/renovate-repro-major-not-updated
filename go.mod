@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/go-chi/chi/v4 v4.0.0-rc1
-	github.com/google/go-github/v44 v44.1.0
+	github.com/google/go-github/v44 v44.0.0
 )
 
 require (
